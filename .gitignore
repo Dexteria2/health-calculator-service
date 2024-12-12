@@ -1,0 +1,13 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/
+
+# Ignore Docker intermediate files
+*.dockerignore
+
+# Ignore system files
+.DS_Store
+.env
