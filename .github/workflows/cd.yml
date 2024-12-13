@@ -20,17 +20,13 @@ jobs:
       with:
         python-version: '3.x'
 
-    # Étape 3 : Installer Azure CLI
-    - name: Install Azure CLI
-      uses: azure/CLI@v1
-
-    # Étape 4 : Connexion à Azure
-    - name: Azure Login
+    # Étape 3 : Connexion à Azure
+    - name: Login to Azure
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    # Étape 5 : Déployer sur Azure
+    # Étape 4 : Déployer sur Azure Web App
     - name: Deploy to Azure Web App
       run: |
-        az webapp up --name <your-app-name> --runtime "PYTHON:3.9"
+        az webapp up --name health-calculator-app --resource-group health-calculator-rg --runtime "PYTHON:3.9"
