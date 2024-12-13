@@ -28,4 +28,4 @@ jobs:
     # Étape 4 : Déployer sur Azure Web App
     - name: Deploy to Azure Web App
       run: |
-        az webapp up --name health-calculator-app --resource-group health-calculator-rg --runtime "PYTHON:3.9"
+        az webapp up --name health-calculator-app-Nico --resource-group health-calculator-rg --runtime "PYTHON:3.9"
