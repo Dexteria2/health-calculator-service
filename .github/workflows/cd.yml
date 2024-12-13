@@ -25,7 +25,6 @@ jobs:
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
-
     # Étape 4 : Déployer sur Azure Web App
     - name: Deploy to Azure Web App
       run: |
