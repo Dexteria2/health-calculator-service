@@ -1,4 +1,4 @@
-# Health Calculator Microservice
+# Health Calculator Microservice Nicolas GUERIN
 
 ## Description du projet
 Le **Health Calculator Microservice** est une application Python qui fournit des calculs de santé tels que l'indice de masse corporelle (BMI) et le taux métabolique basal (BMR) via une API REST. Cette application est conteneurisée avec Docker et est déployée sur Azure App Service à l'aide de workflows CI/CD GitHub Actions.
