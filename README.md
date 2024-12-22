@@ -143,6 +143,8 @@ d '{"weight": 70, "height": 1.75}'
 
 for BMI
 
+![image](https://github.com/user-attachments/assets/cac2579a-304d-4171-ba23-6ae251925e6d)
+
 License
 
 This project is licensed under the MIT License.
